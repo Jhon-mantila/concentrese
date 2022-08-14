@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Concentrese" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/texto_titulo</item>
+    </style>
+
+    <style name="boton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/ancho_min_boton</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/alto_min_boton</item>
+        <item name="android:layout_margin">@dimen/margen_boton</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+    </style>
+
+    <style name="cartas">
+        <item name="android:layout_width">@dimen/carta</item>
+        <item name="android:layout_height">@dimen/carta</item>
+        <item name="android:background">@drawable/carta</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+</resources>
